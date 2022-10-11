@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding:20px;
+    justify-content: center;
+    max-width: fit-content;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    background-color: black;
+}
+.button {
+    background-color:orange;
+    padding-left: 20px;
+    border-spacing: 50px;
+    margin:7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    width:50px ;
+    padding: 10px 10px 10px 10px;
+}
+.text {
+    padding: 5px 5px 5px 5px;
+    width: 240px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border: 20px 5px solid black;
+    border-radius: 5px;
+}
+#num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #num0 {
+    background-color: wheat;
+}
